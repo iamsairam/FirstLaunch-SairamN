@@ -1,0 +1,237 @@
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+.landing-section{
+    height: 85vh;
+    background: linear-gradient(rgba(0,0,0, 0.75), rgba(0,0,0,0.75)), url("../Assets/bg_img_2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.learnest-logo{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background-color: #2979FF;
+}
+.logo-section{
+    color: #2979FF;
+}
+.logo-section span{
+    font-size: 25px;
+    font-weight: 600;
+}
+.landing-title{
+    color: #fff;
+    text-align: center;
+    margin-top: 90px;
+}
+.landing-title-2{
+    text-align: center;
+    margin:20px 0 30px; 
+    color: #9DA3A5;
+    font-size: 14px;
+}
+.btn-width{
+    width: 375px;
+    padding-bottom: 75px;
+    margin: 10px auto !important;
+}
+.signup-btn{
+    width: 100%;
+    letter-spacing: 2px;
+    font-size: 12px;
+    height: 70px;
+}
+.section-2{
+    background-image: linear-gradient(#F5F5F5 77.5%, #ffffff 0%);
+}
+.left-content,.right-content{
+    width: 100%;
+}
+.left-content{
+    padding-left: 65px;
+}
+.left-content h6{
+    font-weight: 700 !important;
+    font-size: 12px;
+    letter-spacing: 0.2;
+    margin-bottom: 12px;
+}
+.left-content h1{
+    font-weight: 400 !important;
+}
+.section-2{
+    padding-top: 120px;
+}
+.right-content p{
+    font-size: 14px;
+    font-weight: 600 !important;
+    margin-top: 30px;
+    padding-left: 120px;
+    color: #574638;
+}
+.cards-section{
+    max-width: 990px;
+    margin:100px auto 10px;
+}
+.card-body{
+    padding:2rem 1rem 1rem;
+}
+.card-title{
+    margin-top: 30px;
+}
+.card-text{
+    font-size:14px;
+    font-weight: 600px;
+}
+.section-3 {
+    color: #fff;
+    margin-top: 100px;
+    padding: 100px;
+    background: linear-gradient(rgba(0,0,0, 0.75), rgba(0,0,0,0.75)), url("../Assets/bg_img_3.jpg");   
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section-3 .leftside-content h6{
+color: #fff;
+font-size: 12px;
+letter-spacing: 1px;
+}
+.become{
+    font-weight: 200 !important;
+    font-size: 2.5rem;
+    line-height: 1.3;
+}
+.section-3 p{
+    margin-top: 30px;
+    font-size: 14px;
+}
+.section-4{
+    padding:100px 50px 100px 75px;
+    background-color: #F5F5F5;
+}
+.card-body {
+    padding: 2rem 15px 1rem;
+}
+.section-4 .card-text{
+    font-size: 12px;
+    font-weight: 500;
+}
+.section-4 .card-title{
+    font-weight: 700;
+    font-size: 20px;
+}
+.section-5{
+    padding:100px 50px;
+}
+.footer-content{
+    font-size: 12px;
+    margin-top: 30px;
+    max-width: 410px;
+    letter-spacing: 0.2px;
+}
+.courses hr{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.courses span,.text-end{
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #6c757d!important;
+}
+.courses div a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 2.2;
+}
+.icons{
+    margin-top: 30px;
+}
+.icons img{
+    width: 40px;
+}
+.section-6{
+    background-color: #F5F5F5;
+    padding:30px 50px 50px;
+}
+.footer-innertext{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.footer-part-text{
+    width: 340px;
+}
+.copyright{
+    font-size: 12px;
+}
+.sub-footer{
+    font-size: 12px;
+    margin-top: 16px;
+}
+
+/* media quaries for mobile */
+@media only screen and (max-width: 600px) {
+    .justify-content-between{
+        flex-wrap: wrap;
+    }
+    .landing-title{
+        font-size: 21px;
+    }
+    .landing-title-2{
+        font-size: 12px;
+    }
+    .signup-btn {
+        width: 98%;
+    }
+    br{
+        display: none;
+    }
+    .right-content p,.left-content{
+        padding-left:25px;
+        padding-right: 25px;
+    }
+    .card{
+        margin: 1rem 1rem;
+    }
+    .section-2{
+        background-image: linear-gradient(#F5F5F5 67.5%, #ffffff 0%);
+    } 
+    .cards-section{
+        margin: 50px auto 10px;
+    }
+    .section-3{
+        padding:50px
+    }
+    .become{
+        font-size: 2rem;
+    }.section-4 {
+        padding: 75px 25px 25px 25px;
+    }
+    .section-4 img{
+        width: 100%;
+        border-bottom-left-radius: 25px !important;
+        border-bottom-right-radius: 25px !important;
+    }
+    .section-4 .card-title {
+        font-size: 24px;
+    }
+    .section-4 .card-text {
+        font-size: 14px;
+    }
+    .section-4 .card-title{
+        margin-top: 0;
+    }
+    .section4 .card{
+        border-radius: 25px !important;
+    }
+  }
